@@ -83,7 +83,7 @@ function Menu({ addToCart }) {
                   <h5 className="card-title">{item.name}</h5>
 
                   <p className="card-text fw-bold">
-                    ${item.price.toFixed(2)}
+                    {item.price.toFixed(2)}
                   </p>
 
                   <button
